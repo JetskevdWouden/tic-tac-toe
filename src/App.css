@@ -1,22 +1,21 @@
 .App {
+  background: lightseagreen;
+}
+
+.square {
+  background: lightsalmon;
+  border: 4px solid salmon;
+  float: left;
+  margin-right: -4px;
+  padding: 0;
+  width: 80px;
+  height: 80px;
   text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 80px;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.square:focus {
+  outline: none;
 }
