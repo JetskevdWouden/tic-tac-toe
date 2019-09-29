@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Square from './components/Square'
+import GameContainer from './components/GameContainer';
 
 function App() {
   return (
     <div className="App">
-      <Square />
+      <GameContainer />
     </div>
   );
 }
